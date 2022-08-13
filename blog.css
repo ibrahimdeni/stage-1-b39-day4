@@ -1,0 +1,412 @@
+body {
+    background-color: rgb(236, 236, 236);
+    margin: 0px;
+    font-family: arial ;
+}
+
+
+nav {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    font-family: arial;
+}
+
+.nav-left {
+    display:flex;
+    padding-left: 50px;
+    align-items: center;
+    flex: 50%;
+}
+
+.nav-left li {
+    display:inline;
+    margin-left: 30px;
+}
+
+.nav-left ul {                   
+    display: flex;
+    align-items: center;
+}
+
+.nav-left ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.home {
+    font-weight: bold;
+}
+
+.nav-right {
+    display: flex;
+    flex: 50%;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color:white;
+    background-color: black;
+    padding: 8px 25px;
+    border-radius: 7px;
+    font-weight: 600;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 95px;
+    margin-bottom: 45px;
+}
+
+form {
+    margin: 10px auto 90px auto;
+    width: 500px;
+    font-weight: bold;
+}   
+
+.formT div {
+    margin-top: 15px;
+}
+
+.formT input, textarea {
+    width: 100%;
+    background-color: white;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 0px 5px 10px rgb(211, 211, 211);
+    margin-top: 5px;
+}
+
+.formT textarea {
+    resize: none;
+    height: 150px;
+}
+
+.date {
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.start {
+    flex: 50%;
+    margin-right: 5px;
+}
+
+.end {
+    flex: 50%;
+    margin-left: 5px;
+}
+
+.formB {
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.formB div{
+    margin-top: 0px;
+}
+
+.CB {
+    display: flex;
+}
+
+.CB div {
+    margin-top: 10px;
+}
+
+.CBL {
+    flex: 50%;
+}
+
+.CBR {
+    flex: 50%;
+}
+
+.INP {
+    zoom: 1.5;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px rgb(224, 221, 221);
+    border-radius: 7px;
+    border: 1px solid rgb(243, 242, 242);
+}
+
+.FT {
+    display: inline-flex;
+    font-size: 20px;
+    color: gray;
+}
+
+/*punya mas rijal*/
+/*.MRJL .input-blog-image-group {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background: #f4f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .MRJL .input-blog-image-group label p {
+    font-size: 15px;
+  }
+  
+  .MRJL .input-blog-image-group label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+*/
+
+.formT .formT-input-img {
+    width: 100%;
+    background-color: white;
+    border: 1px solid white;
+    height: 48px;
+    border-radius: 7px;
+    box-shadow: 0px 5px 10px rgb(211, 211, 211);
+    margin-top: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+}
+.formT .formT-input-img p {
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+    color: rgb(158, 158, 158);
+    background-color: rgb(219, 219, 219);
+    padding: 15px;
+    margin-top: -1px;
+    margin-left: -2px;
+    border-radius: 8px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    flex: 50%;
+}
+.formT .formT-input-img img {
+    flex: 50%;
+    margin-left: 460px;
+    margin-top: -63px;
+    width: 40px;
+
+}
+
+.button {
+    display: flex;
+    justify-content: end;
+    margin-top: 30px;
+}
+
+.button button {
+    background-color: black;
+    color: white;
+    padding: 7px 30px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+hr {
+    border: 1px solid #dbdbdb;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.blog-post {
+    background-color: rgb(250, 250, 250);
+    height: 9000px; 
+    margin-top: -95px;
+}
+
+.blog-post h1 {
+    padding-top: 100px;
+}
+
+.blog-post .post-kotak-BP {
+    display: flex;
+    width: 33%;
+}
+
+.blog-post .post-kotak-BP .kotak-BP {
+    width: 400px;
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0px 10px 18px rgb(221, 221, 221);
+    margin: 100px 20px 100px 20px ;
+    flex: 33%;
+    padding: 10px;
+}
+
+.blog-post .post-kotak-BP .kotak-BP img{
+    width: 100%;
+    height: 250px;
+    object-fit:cover;
+    border-radius: 8px;
+}
+
+.blog-post .post-kotak-BP .kotak-BP .BP-info{
+    height: 180px;
+}
+
+.blog-post .post-kotak-BP .kotak-BP .BP-info .Bp-title {
+    font-weight: bold;
+}
+
+.blog-post .post-kotak-BP .kotak-BP .BP-info .BP-duration {
+    margin-top: -20px;
+    font-size: 15px;
+    color: gray;
+}
+
+.blog-post .post-kotak-BP .kotak-BP .BP-info .BP-detail {
+    font-size: 16px;
+    width: 100%;
+    text-align: justify;
+}
+
+.blog-post .post-kotak-BP .kotak-BP .BP-icon {
+    width: 70%;
+    display: flex;
+}
+
+.blog-post .post-kotak-BP .kotak-BP .BP-icon img {
+    height: 30px;
+    width: 30px;
+    border-radius: none;
+    padding: 5px;
+}
+
+.blog-post .post-kotak-BP .kotak-BP .BP-button {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.blog-post .post-kotak-BP .kotak-BP .BP-button .BP-button-edit{
+    flex: 50%;
+    padding-right: 2px;
+}
+
+.blog-post .post-kotak-BP .kotak-BP .BP-button .BP-button-delete{
+    flex: 50%;
+    padding-left: 2px;
+}
+
+.blog-post .post-kotak-BP .kotak-BP .BP-button button {
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 30px;
+    width: 100%;
+}
+/* .blog-post .post-kotak-BP .kotak-BPdua {
+    width: 400px;
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0px 10px 18px rgb(221, 221, 221);
+    margin: 100px 20px 100px 20px ;
+    flex: 33%;
+}
+
+.blog-post .post-kotak-BP .kotak-BPtiga {
+    width: 400px;
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0px 10px 18px rgb(221, 221, 221);
+    margin: 100px 20px 100px 20px ;
+    flex: 33%;
+} */
+
+
+  /* punya mas rijal. Blog list
+.blog-list {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+.blog-list .blog-list-item {
+    width: 80%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #dbdbdb;
+    border-radius: 8px;
+    display: flex;
+  }
+  
+.blog-list .blog-list-item .blog-image {
+    flex: 1;
+  }
+  
+.blog-list .blog-list-item .blog-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+.blog-list .blog-list-item .blog-content {
+    padding-left: 20px;
+    flex: 2;
+  }
+  
+.blog-list .btn-group {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+.blog-list .btn-group .btn-edit {
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 4px;
+    background: #dbdbdb;
+  }
+  
+.blog-list .btn-group .btn-post {
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 4px;
+    background: #ec4d37;
+    color: #fff;
+  }
+  
+.blog-list h1 a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+.blog-list .detail-blog-content {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  
+.blog-list .blog-list-item p {
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+  } */
+

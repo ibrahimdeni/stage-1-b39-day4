@@ -30,6 +30,7 @@ function addBlog(event) {
 
 function renderBlog() {
     console.log(dataBlog.length);
+    document.getElementById("contents").innerHTML = ""
     for (let index = 0; index < dataBlog.length; index++) {
         console.log(dataBlog[index]);
         document.getElementById("contents").innerHTML += 

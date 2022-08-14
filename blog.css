@@ -236,7 +236,7 @@ hr {
 }
 
 .blog-post .post-kotak-BP .kotak-BP .BP-info{
-    height: 180px;
+    height: 205px;
     text-align: justify;
     width: 100%;
 }
@@ -260,11 +260,12 @@ hr {
     display: flex;
 }
 
-.blog-post .post-kotak-BP .kotak-BP .BP-icon img {
-    height: 30px;
-    width: 30px;
+.blog-post .post-kotak-BP .kotak-BP .BP-icon i {
+
+    margin-right: 25px;
+    margin-bottom: 20px;
     border-radius: none;
-    padding: 5px;
+    margin-left: 5px;
 }
 
 .blog-post .post-kotak-BP .kotak-BP .BP-button {

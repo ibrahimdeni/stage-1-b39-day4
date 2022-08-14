@@ -89,16 +89,16 @@ function renderBlog() {
             </div>
             <div class="BP-icon">
                 <div>
-                    <img src="${dataBlog[index].nodejs}" alt="">
+                <i class="fa-brands fa-${dataBlog[index].nodejs} fa-2xl"></i>
                 </div>
                 <div>
-                    <img src="${dataBlog[index].reactjs}" alt="">
+                <i class="fa-brands fa-${dataBlog[index].nextjs} fa-2xl"></i>
                 </div>
                 <div>
-                    <img src="${dataBlog[index].nextjs}" alt="">
+                <i class="fa-brands fa-${dataBlog[index].reactjs} fa-2xl"></i>
                 </div>
                 <div>
-                    <img src="${dataBlog[index].typescript}" alt="">
+                <i class="fa-brands fa-${dataBlog[index].typescript} fa-2xl"></i>
                 </div>
             </div>
             <div class="BP-button">

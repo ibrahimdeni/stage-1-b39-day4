@@ -10,14 +10,51 @@ function addBlog(event) {
     let describe = document.getElementById("descrip").value
     let image = document.getElementById("input-blog-image").files
 
+    let nodejs = document.getElementById("ICBnoj").checked
+    if(nodejs){
+        nodejs = document.getElementById("ICBnoj").value
+    } else {
+        nodejs = ''
+    }
+
+    let reactjs = document.getElementById("ICBrej").checked
+    if(reactjs){
+        reactjs = document.getElementById("ICBrej").value
+    } else {
+        reactjs = ''
+    }
+
+    let nextjs = document.getElementById("ICBnej").checked
+    if(nextjs){
+        nextjs = document.getElementById("ICBnej").value
+    } else {
+        nextjs = ''
+    }    
+
+    let typescript = document.getElementById("ICBts").checked
+    if(typescript){
+        typescript = document.getElementById("ICBts").value
+    } else {
+        typescript = ''
+    }    
+
     image = URL.createObjectURL(image[0])
+
+    console.log(nodejs);
+    console.log(reactjs);
+    console.log(nextjs);
+    console.log(typescript);
 
     let blog = {
         title,
         sdate,
         edate,
         describe,
-        image
+        image,
+        nodejs,
+        reactjs,
+        nextjs,
+        typescript
     }
 
     dataBlog.push(blog)
@@ -52,16 +89,16 @@ function renderBlog() {
             </div>
             <div class="BP-icon">
                 <div>
-                    <img src="assets/nodejs.png" alt="">
+                    <img src="${dataBlog[index].nodejs}" alt="">
                 </div>
                 <div>
-                    <img src="assets/nextjs.png" alt="">
+                    <img src="${dataBlog[index].reactjs}" alt="">
                 </div>
                 <div>
-                    <img src="assets/reactjs.png" alt="">
+                    <img src="${dataBlog[index].nextjs}" alt="">
                 </div>
                 <div>
-                    <img src="assets/TS.png" alt="">
+                    <img src="${dataBlog[index].typescript}" alt="">
                 </div>
             </div>
             <div class="BP-button">

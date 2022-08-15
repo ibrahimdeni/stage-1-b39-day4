@@ -88,21 +88,17 @@ h1 {
 
 .sesi-atas .body .kanan {
     flex: 35%;
+    margin-top: 5px;
 }
 
 .sesi-atas .body .kanan img {
     width: 30px;
-    margin-top: 30px;
 }
 
 label {
     margin-left: 5px;
 }
 
-.sesi-atas .body .kanan .konten-atas {
-    
-    background-color: aqua;
-}
 
 .sesi-atas .body .kanan .konten-atas div {
     margin-bottom: 15px;
